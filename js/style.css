@@ -1,0 +1,272 @@
+#heading , #subheading  {
+
+font-family:  'Montserrat Subrayada', sans-serif;
+color: white;
+text-shadow: 2px 2px  black;
+font-size: 50px;
+}
+
+
+
+#death_birth{
+  font-family: 'Wire One', sans-serif;
+  color: white;
+  font-size: 50px;
+  text-shadow: 2px 2px  gold;
+
+
+}
+
+#First_heading, #bye_hugh,#link{
+
+font-family:  'Montserrat Subrayada', sans-serif;
+color: white;
+font-size: 35px;
+text-shadow: 2px 2px  gold;
+
+
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+
+}
+
+.header {
+  font-size: 5.9vw;
+}
+
+p {
+  font-size: 2vmin;
+}
+
+#bio{
+
+color: black;
+font-family: 'Wire One', sans-serif;
+font-size: 30px;
+font-weight: bolder;
+
+
+
+
+}
+
+#cd_title1, #cd_title2, #cd_title3, #cd_title4{
+
+font-family: 'Wire One', sans-serif;
+font-size: 35px;
+font-weight: 1000;
+
+
+}
+
+#jumbo_header{
+
+/*background-image: url('border-largest.png');*/
+background-repeat: no-repeat;
+opacity:0.8;
+background-size: cover;
+height: 300%;
+
+
+
+}
+
+body{
+
+text-align: center;
+
+background-image: url('black-leatdher-texture-background-hd.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
+background-color: rgb(54,69,79);
+
+}
+
+
+#row-1-col-1{
+
+
+
+
+background: rgba(58,111,151,0.4);
+position: relative;
+
+  max-width:  none;
+
+
+  display: block;
+    width: 100%;
+    height: auto;
+
+
+
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+@@media Handheld ,screen and (max-width: 768) {
+
+#hugh_sax{
+width:250px;
+height:150px;"
+
+}
+
+  #death_birth{
+    font-family: 'Wire One', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px  gold;
+
+
+  }
+
+
+
+#kers1,#kers2{
+
+width:20px;height:30px;
+
+
+}
+
+#heading{
+  font-size: 30px;
+}
+#subheading{
+  font-size: :15
+}
+
+}
+
+#disc{
+
+color:black;
+
+}
+
+#row-1-col-2{
+
+background: rgba(204,62,41,0.4);
+position: relative;
+
+  max-width: none;
+
+  display: block;
+    width: 100%;
+    height: auto;
+
+
+
+}
+
+
+
+#row-1-col-3{
+
+background-color: indigo;
+background: rgba(198,229,217,0.4);
+
+
+
+position: relative;
+
+  max-width: none;
+
+  display: block;
+    width: 100%;
+    height: auto;
+
+
+}
+
+#row-1-col-4{
+
+background: rgba(247,232,49,0.4);
+position: relative;
+
+  max-width: none;
+
+  display: block;
+    width: 100%;
+    height: auto;
+
+
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 90%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+
+  text-align: center;
+}
+
+
+/* When you mouse over the container, fade in the overlay title */
+[class*="col-"]:hover .overlay {
+  opacity: 1;
+}
+
+#btn {
+    display: none;/* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    opacity: 0.5;
+}
+
+#btn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
