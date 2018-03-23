@@ -92,7 +92,54 @@
 
   						result = "all are equal numbers";
   					}
-          
+
+           if (firstnumber==secondnumber){
+
+             if(firstnumber > lastnumber){
+               result = firstnumber;
+
+
+             }
+
+             else{
+               reslt = lastnumber;
+             }
+
+
+           }
+
+           if (firstnumber==lastnumber){
+
+             if(firstnumber > secondnumber){
+               result = firstnumber;
+
+
+             }
+
+             else{
+               reslt = secondnumber;
+             }
+
+
+           }
+
+           if (secondnumber==lastnumber){
+
+             if(lastnumber > firstnumber){
+               result = lastnumber;
+
+
+             }
+
+             else{
+               reslt = firstnumber;
+             }
+
+
+           }
+
+
+
             if(firstnumber > lastnumber && firstnumber > secondnumber){
               result =firstnumber;
             }
