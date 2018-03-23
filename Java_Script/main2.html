@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+
+  <meta charset="UTF-8">
+
+  <!-- Add icon library -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+  <!-- css stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <title>Document</title>
+</head>
+
+
+<body>
+
+<h1>The area of a triangle</h1>
+
+
+  <div class="container container-fluid" id="Logo">
+    <img src="penrose.png" alt="triangle" style="width:300px;height:250px;"  >
+  </div>
+
+<form>
+<input type="button" value="Calculate" onclick="calculator();">
+<p id="result" ></p>
+</form>
+
+<script>
+
+function calculator(){
+
+    document.getElementById("result").innerHTML = calc();
+
+}
+
+function calc (){
+
+  var side1 = 8;
+  var side2 = 6;
+  var side3 = 7;
+  var perimeter = (side1 + side2 + side3)/2;
+  var area =  Math.sqrt(perimeter*((perimeter-side1)*(perimeter-side2)*(perimeter-side3)));
+  return area;
+
+}
+
+
+
+</script>
+
+
+
+</body>
