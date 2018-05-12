@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+  <title>Tikhomeli</title>
+
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+
+    <meta charset="UTF-8">
+
+
+    <!--FONTS-->
+  <link href="https://fonts.googleapis.com/css?family=Anton|Chathura|Julius+Sans+One|Lato|Montserrat+Subrayada|Orbitron|Six+Caps|Tenor+Sans|Timmana|Wire+One" rel="stylesheet">
+
+  <!--
+  Specify in CSS
+  Use the following CSS rules to specify these families:
+  font-family: 'Lato', sans-serif;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Timmana', sans-serif;
+  font-family: 'Orbitron', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Tenor Sans', sans-serif;
+  font-family: 'Six Caps', sans-serif;
+  font-family: 'Chathura', sans-serif;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-family: 'Wire One', sans-serif;
+  -->
+  <!-- Add icon library -->
+
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- css stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+<style>
+
+body{
+
+text-align: center;
+
+
+
+background-color: rgb(188, 158, 130);
+
+}
+
+#HEADING {
+font-family: 'Dancing Script', cursive;
+font-size: 200px;
+
+}
+
+#video_player {
+	display: table;
+	line-height: 0;
+	font-size: 0;
+	background: #000;
+}
+#video_player video,
+	#video_player figcaption {
+		display: table-cell;
+		vertical-align: top;
+}
+#video_player figcaption {
+	width: 25%;
+}
+#video_player figcaption a {
+	display: block;
+	opacity: .5;
+	transition: 1s opacity;
+}
+#video_player figcaption a img,
+	figure video {
+		width: 100%;
+		height: auto;
+}
+#video_player figcaption a:hover {
+	opacity: 1;
+}
+
+@media (max-width: 700px) {
+	#video_player video,
+		#video_player figcaption {
+			display: table-row;
+		}
+#video_player figcaption a {
+	display: inline-block;
+	width: 33.33%;
+}
+}
+
+
+
+</style>
+
+</head>
+<body>
+
+  <h1 id="HEADING">Tikhomeli Nyeleti</h1>
+  <audio controls>
+  <source src="LOVE.ogg" type="audio/ogg">
+  <source src="LOVE.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+  <figure id="video_player">
+  	<video controls poster="siya.png">
+  		<source src="siya.mp4" type="video/mp4">
+  		<source src="siya.webm" type="video/webm">
+  	</video>
+  	<figcaption>
+  		<a href="siya.mp4"><img src="siya.png" alt="siya video"></a>
+  		<a href="daleel.mp4"><img src="daleel.jpeg" alt="daleel video"></a>
+  		<a href="kim.mp4"><img src="kim.jpeg" alt="kim video"></a>
+      <a href="aya.mp4"><img src="aya.jpeg" alt="aya video"></a>
+  		<a href="buck.mp4"><img src="buck.jpeg" alt="buck video"></a>
+  		<a href="chris.mp4"><img src="KimV.jpeg" alt="chris video"></a>
+      <a href="junior.mp4"><img src="juno.jpeg" alt="junior video"></a>
+  		<a href="lawrence.mp4"><img src="lawrence.jpg" alt="lawrence video"></a>
+  		<a href="neo.mp4"><img src="slik.jpeg" alt="neo video"></a>
+      <a href="tre.mp4"><img src="tre.png" alt="tre video"></a>
+      <a href="vuyo.mp4"><img src="vuyo.jpeg" alt="vuyo video"></a>
+      <a href="tii.mp4"><img src="tii.jpeg" alt="vuyo video"></a>
+      <a href="kets.mp4"><img src="kets.png" alt="vuyo video"></a>
+  	</figcaption>
+  </figure>
+
+<script>
+
+var video_player = document.getElementById("video_player"),
+links = video_player.getElementsByTagName('a');
+for (var i=0; i<links.length; i++) {
+	links[i].onclick = handler;
+}
+
+function handler(e) {
+	e.preventDefault();
+	videotarget = this.getAttribute("href");
+	filename = videotarget.substr(0, videotarget.lastIndexOf('.')) || videotarget;
+	video = document.querySelector("#video_player video");
+	video.removeAttribute("controls");
+	video.removeAttribute("poster");
+	source = document.querySelectorAll("#video_player video source");
+	source[0].src = filename + ".mp4";
+	source[1].src = filename + ".webm";
+	video.load();
+	video.play();
+}
+
+
+</script>
+</body>
+</html>
