@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+
+  <meta charset="UTF-8">
+
+  <!-- Add icon library -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+  <!-- css stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <title>Document</title>
+
+  <script >
+
+
+  $(document).ready(function(){
+
+$('#skills').fadeIn(5000);
+  	$('#name_sake').fadeIn(2000);
+
+
+  });
+
+$(document).ready(function(){
+
+var modal = document.getElementById('myModal');
+var img = document.getElementById('music_img');
+var captionText = document.getElementById("caption");
+
+img.onclick = function(){
+    modal.style.display = "block";
+    captionText.innerHTML = this.alt;
+
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+})
+
+
+    function myFunction() {
+var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+
+
+
+
+
+  </script>
+
+
+
+
+</head>
+
+<body>
+
+<!-- Intro Header -->
+<header class="masthead">
+  <div class="intro-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h1 class="brand-heading" id="name_sake" style="display:none;">MAKATLAMPANA</h1>
+          <p class="intro-text" id="skills" style="display:none;" >Artist, Designer and Technologist</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Nav Bar -->
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#about">My Story</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#work">Craft</a>
+  <a href="#contact">Contact</a>
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+    <!-- About Section -->
+<section id="about" class="text-center ">
+
+<p>hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</p>
+
+</section>
+
+<div>    <!-- gallery Section -->
+<section id="gallery" class="text-center ">
+
+<p>Gallery</p>
+
+<div id="music" class="container">
+  <img src="music.png" alt="Avatar" id="music_img">
+  <div class="centered">Music</div>
+
+</div>
+
+<div id="design" class="container">
+<a href="design.html">      <img src="design.png" alt="Avatar" id="design_img"> </a>
+  <div class="centered">Design</div>
+
+
+
+
+</div>
+
+<div id="visual" class="container">
+  <img src="visual.png" alt="Avatar" id="visual_img" >
+  <div class="centered">Visual</div>
+
+</div>
+
+
+</section>
+</div>
+
+
+<div>    <!-- work Section -->
+<section id="work" class="text-center ">
+
+<p>hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</p>
+
+<div id="phases" class="container">
+  <img src="phases.png" alt="Avatar" id="phases_img" >
+  <div class="centered">KHOI</div>
+
+</div>
+
+<div id="friends" class="container">
+  <img src="friends.png" alt="Avatar" id="friends_img" >
+  <div class="centered">KHOI</div>
+
+</div>
+
+<div id="khoi" class="container">
+  <img src="khoi.png" alt="Avatar" id="khoi_img" >
+  <div class="centered">KHOI</div>
+
+</div>
+
+</section>
+</div>
+
+
+
+
+
+<div>    <!-- contact Section -->
+<section id="contact" class="text-center">
+
+<p>hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</p>
+
+</section>
+</div>
+
+
+<!-- modals-->
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <p id="caption">hiiiiiiiiiiiiiiiii</p>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
