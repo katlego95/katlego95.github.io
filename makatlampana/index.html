@@ -106,6 +106,8 @@ var x = document.getElementById("myTopnav");
 <body>
 
 <!-- Intro Header -->
+
+
 <header class="masthead">
   <div class="intro-body">
     <div class="container">
@@ -119,6 +121,7 @@ var x = document.getElementById("myTopnav");
     </div>
   </div>
 </header>
+
 
 <!-- Nav Bar -->
 
@@ -137,10 +140,15 @@ var x = document.getElementById("myTopnav");
 
     <!-- About Section -->
 <section id="about" class="text-center ">
-
-<p>hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</p>
-
+<br></br>
+<p id="about_paragraph">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+<br></br>
 </section>
+
+
+
+
+
 
 <div>    <!-- gallery Section -->
 <section id="gallery" class="text-center ">
@@ -176,7 +184,7 @@ var x = document.getElementById("myTopnav");
 <div>    <!-- work Section -->
 <section id="work" class="text-center ">
 
-<p>hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</p>
+<p>Craft</p>
 
 <div id="phases" class="container">
   <img src="phases.png" alt="Avatar" id="phases_img" >
@@ -206,7 +214,29 @@ var x = document.getElementById("myTopnav");
 <div>    <!-- contact Section -->
 <section id="contact" class="text-center">
 
-<p>hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</p>
+  <h3>Contact Form</h3>
+
+  <div class="Container-fluid" id="form">
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">South Africa</option>
+        <option value="canada">Rest of the world</option>
+
+      </select>
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
 
 </section>
 </div>
