@@ -8,6 +8,18 @@ body, html {
     background-color: black;
 }
 
+#craft_paragraph , #gallery_paragraph {
+font-size: 20px;
+
+
+}
+
+#head1, #head2 {
+
+font-size: 30px;
+
+}
+
 #music , #design , #visual , #khoi, #phases, #friends{
   display: inline-block;
   position: relative;
@@ -267,14 +279,21 @@ background-color: white;
         position: relative;
         width: 15
         0px;
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
         overflow: hidden;
         border-radius: 50%;
 
 
+      }
+
+      #craft_paragraph , #gallery_paragraph {
+      font-size: 10px;
+
 
       }
+
+
 
 }
 
