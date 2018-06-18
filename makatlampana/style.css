@@ -267,9 +267,11 @@ background-color: white;
         position: relative;
         width: 15
         0px;
+        width: 150px;
         height: 150px;
         overflow: hidden;
         border-radius: 50%;
+
 
 
       }
