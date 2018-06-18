@@ -11,12 +11,48 @@ body, html {
 #music , #design , #visual , #khoi, #phases, #friends{
   display: inline-block;
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   overflow: hidden;
   border-radius: 50%;
 
 
+}
+
+#about_paragraph {
+color: white;
+font-size: 35px;
+
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
 
 
@@ -210,12 +246,34 @@ background-color: white;
     position: absolute;
     right: 0;
     top: 0;
+
   }
   .topnav.responsive a {
     float: none;
     display: block;
     text-align: center;
   }
+
+      #about_paragraph{
+
+        font-size: 15px;
+
+
+      }
+
+
+      #music , #design , #visual , #khoi, #phases, #friends{
+        display: inline-block;
+        position: relative;
+        width: 15
+        0px;
+        height: 150px;
+        overflow: hidden;
+        border-radius: 50%;
+
+
+      }
+
 }
 
 #caption {
@@ -230,7 +288,7 @@ background-color: white;
 }
 
 /* Add Animation - Zoom in the Modal */
- #caption { 
+ #caption {
     animation-name: zoom;
     animation-duration: 0.6s;
 }
