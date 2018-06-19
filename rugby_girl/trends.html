@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+
+  <meta charset="UTF-8">
+
+  <!-- Add icon library -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+  <!-- css stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Girl In The Stands</title>
+  <script >
+
+
+  $(document).ready(function(){
+
+  $('#skills').fadeIn(5000);
+    $('#name_sake').fadeIn(2000);
+
+
+  });
+
+  $(document).ready(function(){
+
+  var modal = document.getElementById('myModal');
+  var img = document.getElementById('music_img');
+  var captionText = document.getElementById("caption");
+
+  img.onclick = function(){
+    modal.style.display = "block";
+    captionText.innerHTML = this.alt;
+
+  }
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  })
+
+
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+
+
+
+
+  </script>
+
+</head>
+
+<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up"></i></button>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <a href="superRugby.html">Super Rugby</a>
+    <a href="sevens.html">Sevens</a>
+    <a href="springboks.html">Springboks</a>
+    <a href="trends.html">trends</a>
+    <a href="about.html">Contact</a>
+  </div>
+
+
+
+
+
+  <div class="jumbotron">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+  <a href= "index.html"><i class="material-icons" style="font-size:40px;color:black" id="home_icon">home</i></a>
+
+  <div id="head_icons">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-youtube"></a>
+  </div>
+
+      <div class="container text center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <br></br>
+            <br></br>
+
+
+            <br></br>
+            <h1 class="brand-heading" id="name_sake" style="display:none;">Girl In The Stands</h1>
+            <p class="intro-text" id="skills" style="display:none;" >Rugby blog</p>
+
+          </div>
+        </div>
+      </div>
+
+
+  </div>
+  <div class="container-fluid text-center">
+    <div class="row content">
+      <div class="col-sm-10 text-left">
+        <p>
+        <a href="post3.html"><img src="http://via.placeholder.com/200x100" width="200" height="100" class="img1" id="preview_img"></a>
+        <h1>RIP Legendary Joost</h1>
+        On February 6, the rugby community mourned the life of veteran Joost Van der Westhuizen who lost his battle to Motor Neuron Disease. Undoubtedly one of the best players to wear the green and gold jersey, he leaves us with a legacy of incredible career accolades, autobiography Spieelbeeld (Man in the Mirror) and J9 Foundation.
+      </p></br>
+        <hr>
+        <p>
+        <a href="post3.html"><img src="http://via.placeholder.com/200x100" width="200" height="100" class="img1" id="preview_img"></a>
+        <h1>Transformation, the ice breaker.</h1>
+        This is unquestionably one of the most controversial and sensitive topics within the sporting community. It’s a divisive conversation. Before we unpack this subject, it is only fair that we define and understand what exactly is meant by the catchphrase ‘TRANSFORMATION’ and why it’s giving people chest pains.
+
+      </p></br>
+        <hr>
+        <p>
+        <a href="post3.html"><img src="http://via.placeholder.com/200x100" width="200" height="100" class="img1" id="preview_img"></a>
+        <h1>Tuks win FNB Varsity Cup title having been log leaders all season.</h1>
+        It was a spectacular showdown which saw the University of Pretoria (‘TUKS’) defeat the University of Stellenbosch (‘Maties’) 28 – 21 in the 10th anniversary of the FNB Varsity Cup final presented by Steinhoff which took place at TUKS Stadium, Pretoria, on April 17th.
+
+      </p></br>
+
+      </div>
+      <div class="col-sm-2 sidenav1">
+
+          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+</br>
+
+          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        </br>
+
+                  <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="footer">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-youtube"></a>
+
+    <p>2018 GIRL IN THE STANDS &copy;</p>
+  </div>
+
+
+    <script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+</body>
+
+</html>

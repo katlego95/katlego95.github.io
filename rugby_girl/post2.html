@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+
+  <meta charset="UTF-8">
+
+  <!-- Add icon library -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+  <!-- css stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Girl In The Stands</title>
+  <script >
+
+
+  $(document).ready(function(){
+
+$('#skills').fadeIn(5000);
+    $('#name_sake').fadeIn(2000);
+
+
+  });
+
+$(document).ready(function(){
+
+var modal = document.getElementById('myModal');
+var img = document.getElementById('music_img');
+var captionText = document.getElementById("caption");
+
+img.onclick = function(){
+    modal.style.display = "block";
+    captionText.innerHTML = this.alt;
+
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+})
+
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+
+
+
+
+  </script>
+
+</head>
+
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up"></i></button>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <a href="superRugby.html">Super Rugby</a>
+    <a href="sevens.html">Sevens</a>
+    <a href="springboks.html">Springboks</a>
+    <a href="trends.html">trends</a>
+    <a href="about.html">Contact</a>
+  </div>
+
+
+
+
+
+  <div class="jumbotron">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+<a href= "index.html"><i class="material-icons" style="font-size:40px;color:black" id="home_icon">home</i></a>
+  <div id="head_icons">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-youtube"></a>
+  </div>
+
+      <div class="container text center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <br></br>
+            <br></br>
+
+
+            <br></br>
+            <h1 class="brand-heading" id="name_sake" style="display:none;">Girl In The Stands</h1>
+            <p class="intro-text" id="skills" style="display:none;" >Rugby blog</p>
+
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="container-fluid text-center">
+    <div >
+      <div class="col-sm-10 text-left">
+        <p>
+        <a href="post1.html"><img src="http://via.placeholder.com/400x200 " id="post_header" ></a>
+        <h1>The Champions are here!!!</h1>
+        <h3>As the ten-tournament-long competition comes to an end, the Blitzboks were officially crowned 2016/17 HSBC Sevens World Series champions after a remarkable season.</h3>
+      With a solid performance all season, the men in green and gold were tournament winners in Dubai, Wellington, Las Vegas and Paris. In addition to this achievement, two players – Chris Dry and Rosko Specman were included in the season’s Dream Team. Captain, Philip Snyman made the Most Tackles overall and Neil Powell became the first person to win the HSBC World Rugby Sevens Series as both a player and coach – having been part of the Blitzboks squad that won the 2008/09 title.
+</br>
+South Africa claimed the Series title in the Paris semi-final when they beat New Zealand 26 – 5 and England lost 19 – 17 to Scotland. The Blitzboks were 25 points ahead of Fiji and 27 points over England – who were second and third respectively on the table standings going into the penultimate leg. With Fiji’s quarter-final dismal and England unable to qualify for the final, the title had South Africa’s name all over it as they were now unreachable on the log.
+
+</br>
+Coach Powell’s men participated in all ten Cup quarter-finals, won eight semi-finals they were involved in and five of the eight finals they featured in. South Africa (192) finished crème of the crop with England (164) in a hard fought second place and a disappointed Fiji (150) in third. New Zealand (137) are as expected in fourth and USA (129) round up the top five group.
+</br>
+Praises need to the given to the coaching staff for a phenomenal job and extended to SA Rugby Sevens Academy Manager, Marius Schoeman and his team. The program saw seven of its players – Zain Davids, Stedman Gans, Selvyn Davids, Ryan Oosthuizen, Dewald Human and Marco Labuschagne make their Blitzboks debut. These individuals had great impact in the team’s success and played on the same stage as previous graduates Kwagga Smith, Werner Kok, Seabelo Senatla and Justin Geduld.
+</br>
+As the team traveled back home, they released a comical video with sponsors Asics depicting no-one showing up at the airport as they arrived back from London. Fans put the video to shame as they showed up in their numbers, and were led in song by fellow Blitzbok player, Senatla as they sang in celebration whilst the team came out of the Terminal. After the media briefing, the team set out on a nationwide trophy tour.
+</br>
+Blitzboks have produced solid performances over the past six months and the Series title is an indication of the hard work of the team and the amount of rugby talent South Africa hosts. This victory is well-deserved and we can only hope that the success can be mimicked by the Springboks in their upcoming season.
+
+      </p></br>
+
+
+
+      </div>
+      <div class="col-sm-2 sidenav1">
+
+          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+  </br>
+
+          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        </br>
+
+                  <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="footer">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-youtube"></a>
+
+    <p>2018 GIRL IN THE STANDS &copy;</p>
+  </div>
+
+
+    <script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+  </body>
+
+  </html>
