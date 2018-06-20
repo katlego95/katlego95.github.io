@@ -280,6 +280,8 @@ opacity: 0.5;
 .middle:hover {opacity:1;}
 
 #newB:hover{ opacity:0.7;}
+#post_title { font-size: 100px; }
+#bio {font-size : 80px;}
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 /* Extra small devices (phones, 600px and down) */
@@ -301,9 +303,10 @@ opacity: 0.5;
 @media only screen and (min-width: 992px) {
     #preview_img{width: 60%}
 } 
- #post_title { font-size: 100px; }
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     #preview_img{width: 50%}
     #post_title { font-size: 200px; }
+    #bio {font-size : 160px;}
 }
