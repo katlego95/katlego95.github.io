@@ -305,4 +305,5 @@ opacity: 0.5;
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     #preview_img{width: 50%}
+    h1{font-size: 100px;}
 }
