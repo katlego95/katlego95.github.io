@@ -308,5 +308,5 @@ opacity: 0.5;
 @media only screen and (min-width: 1200px) {
     #preview_img{width: 50%}
     #post_title { font-size: 200px; }
-    #bio {font-size : 160px;}
+    #bio {font-size : 110px;}
 }
