@@ -310,13 +310,13 @@ opacity: 0.5;
     #post_title { font-size: 200px; }
     #bio {font-size : 90px;}
     
-    .fa {
-  padding: 90px;
-  font-size: 140px;
-  width: 190px;
+    .fa { 
+  padding: 200px;
+  font-size: 300px;
+  width: 500px;
   text-align: center;
   text-decoration: none;
-  margin: 3px 2px;
+  margin: 80px 50px;
   border-radius: 50%;
 }
    
