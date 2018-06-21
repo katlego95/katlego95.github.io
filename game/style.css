@@ -1,0 +1,182 @@
+
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+    background-color: LightCoral;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 2px;
+  background-color: NavajoWhite;
+
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.item2 {
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.item3 {
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+#head_icons{float: right;}
+
+#body{
+height: 100%;
+padding-top: 0px;
+
+
+}
+
+.jumbotron {
+  padding-bottom: 0px;
+ color: LightCoral;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+/* Style tab links */
+.tablink {
+    background-color: LightCoral;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 33.33%;
+}
+
+.tablink:hover {
+    background-color: FireBrick;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+#Home {background-color: 	LightSalmon;}
+#News {background-color: salmon;}
+#About {background-color: darkSalmon;}
+
+
+
+#myCanvas{
+
+
+  width: 900px;
+  height:400px;
+  border:1px solid #000000;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #myCanvas{
+
+
+    width: 280px;
+    height:350px;
+    border:1px solid #000000;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #myCanvas{
+
+
+    width: 550px;
+    height:420px;
+    border:1px solid #000000;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #myCanvas{
+
+
+    width: 700px;
+    height:420px;
+    border:1px solid #000000;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #myCanvas{
+
+
+    width: 900px;
+    height:400px;
+    border:1px solid #000000;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #myCanvas{
+
+
+    width: 900px;
+    height:400px;
+    border:1px solid #000000;
+  }
+}

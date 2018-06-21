@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+
+  <meta charset="UTF-8">
+
+  <!-- Add icon library -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+  <!-- css stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <title>Social_Game</title>
+
+  <script >
+
+
+    $(document).ready(function(){
+
+  $('#skills').fadeIn(5000);
+      $('#name_sake').fadeIn(2000);
+
+
+    });
+
+    </script>
+
+
+</head>
+
+<body  style="background-color: LightCoral;>
+  <div class="jumbotron text-center" style="background-color: LightCoral;">
+  <div id="head_icons">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-youtube"></a>
+  </div>
+
+      <div class="container text center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <br></br>
+            <br></br>
+            <br></br>
+            <h1 class="brand-heading text-center" id="name_sake" style="display:none;">GAME NAME & LOGO</h1>
+            <p class="intro-text text-center" id="skills" style="display:none;" >GAME SLOGAN</p>
+          </div>
+        </div>
+      </div>
+  </div>
+
+<div id="body">
+
+
+  <button class="tablink" onclick="openPage('Home', this, 'LightSalmon')" id="defaultOpen"><i class="material-icons" style="font-size:40px;color:black" id="home_icon">home</i></button>
+  <button class="tablink" onclick="openPage('News', this, 'salmon')" ><i class="material-icons" style="font-size:40px;color:black" id="home_icon">videogame_asset</i></button>
+  <button class="tablink" onclick="openPage('About', this, 'DarkSalmon')"><i class="material-icons" style="font-size:40px;color:black" id="home_icon">group</i></button>
+
+  <div id="Home" class="tabcontent text-center" >
+    <h3>Home</h3>
+    <p>Introduction to game along with game instructions</p>
+  </div>
+
+  <div id="News" class="tabcontent text-center">
+    <h3>game</h3>
+
+
+    <div class="grid-container">
+    <div class="item1">1</div>
+    <div class="item2">
+
+
+      <canvas id="myCanvas" >
+      Your browser does not support the HTML5 canvas tag.
+      </canvas>
+
+    </div>
+    <div class="item3">3</div>
+
+
+  </div>
+
+  </div>
+
+
+  <div id="About" class="tabcontent text-center">
+    <h3>About</h3>
+    <p>Description about game and how people get involved with social responsibility</p>
+  </div>
+
+
+</div>
+
+
+
+<div class="footer text-center">
+  <br>
+  <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-instagram"></a>
+  <a href="#" class="fa fa-youtube"></a>
+<br>
+  <p id="info">Company Name</br>Support Telephon Number</br>Email Address<br>Location</p>
+  <p>Game Name & Logo &copy;</p>
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+
+
+
+</body>
+
+</html>
