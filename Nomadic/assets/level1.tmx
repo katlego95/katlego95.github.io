@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.6" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="64" tileheight="64" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" name="TILESET" tilewidth="64" tileheight="64" tilecount="4" columns="4">
+  <image source="eL76q6W.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="5" name="Uwdm2mN" tilewidth="64" tileheight="64" tilecount="72" columns="8">
+  <image source="Uwdm2mN.png" width="512" height="576"/>
+ </tileset>
+ <tileset firstgid="77" name="glc19Lo" tilewidth="64" tileheight="64" tilecount="72" columns="8">
+  <image source="glc19Lo.png" width="512" height="576"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="20" height="10">
+  <data encoding="csv">
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,
+7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,
+7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,
+7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,
+7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,
+7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,
+7,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,7,
+7,0,0,0,0,0,0,5,10,5,5,0,11,0,5,10,5,5,11,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+</data>
+ </layer>
+ <objectgroup name="Object Layer 1"/>
+</map>
