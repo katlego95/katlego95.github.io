@@ -1,0 +1,13 @@
+Nomadic is a html/javascript browser game developed by Katlego Gaveni (November 2018) using Phaser.io library, tiled.io and free open source 
+graphics.
+
+The game is an ode to the classic mario brothers platform game. It features a scene in which our character must navigate to collect coins , all while 
+avoiding obsticles and enemies. The game is supposed to serve as an educational tool aswell - the original idea was to create a game that would also showcase 
+khoi-san history through the game play , game scenes and character. This first version only implements the game play , in the final version the background scene , character 
+and all animations will be originals designs.
+
+Game Controls:
+A - move right 
+D - move left 
+W - jump
+UP - shoot 
