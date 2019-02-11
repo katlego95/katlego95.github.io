@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<title>KATLEGO GAVENI PORTFOLIO</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif;
+}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px;
+overflow: hidden;
+
+}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: right;
+  width: 180px;
+   overflow: hidden;
+   text-align: center;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+#dwld{overflow: visible;}
+
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="/w3images/avatar_smoke.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PORTFOLIO</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">WORK</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Katlego Gaveni.</h1>
+    <p>Designer and Full Stack Developer</p>
+    <img src="IMG_7185.jpg" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey"></h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>I am always thinking about creating. Faced with a blank canvas, I pull, tug and sift through my knowledge and creative intervention to bring forth something ordered and beautiful.
+    </p>
+
+
+
+
+
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">3+</span><br>
+        Websites
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">1+</span><br>
+        Umuzi Product Team
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">9+</span><br>
+        Months as Web Dev Leanership
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">1+</span><br>
+        Months Work expirience
+      </div>
+    </div>
+
+
+    <div id="dwld">
+      <a href="KATLI_final.pdf" download target="_blank">
+        <button class="w3-button w3-light-grey w3-padding-large w3-section"  href="KATLI_final.pdf">
+           <i class="fa fa-download"></i>DOWNLOAD RESUME
+        </button></a>
+    </div>
+
+  <!-- End About Section -->
+
+  <!-- Portfolio Section -->
+  <div class="main" id="photos">
+
+
+<hr>
+
+
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="tech.PNG" alt="Mountains" style="width:100%">
+      <h3>Tech Africa Club</h3>
+      <p>Umuzi porduct team</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="count.PNG" alt="Lights" style="width:100%">
+      <h3>Count Down Site</h3>
+      <p>template countdown site developed with javascript,css and html5</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="search.PNG" alt="Nature" style="width:100%">
+      <h3>CAVA search Engine</h3>
+      <p>Bare search engine developed with css,bootstrap and html5</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="chat-3.png" alt="Mountains" style="width:100%">
+      <h3>Socetio Chat App</h3>
+      <p>Local browser chat aap developed using socket.io</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="mario.png" alt="Bear" style="width:100%">
+  <h3>Nomadic (Super Mario Game)</h3>
+  <p>Super Mario game developed using phaser.io and other technologies.</p>
+  <p></p>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+  </div>
+
+  <div class="w3-padding-64 w3-content w3-text-grey">
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <div class="container-fluid">
+        <div class="gallery">
+      <a target="_blank" href="img_5terre.jpg">
+        <img src="angularjs.png" alt="Cinque Terre" >
+      </a>
+      <div class="desc">Angular.js</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="img_forest.jpg">
+        <img src="GitHub-Logo.png" alt="Forest" >
+      </a>
+      <div class="desc">Github</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="img_lights.jpg">
+        <img src="nodejs-new-pantone-black.png" alt="Northern Lights" >
+      </a>
+      <div class="desc">Node.js</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="img_mountains.jpg">
+        <img src="HTML5_Logo_512.png" alt="Mountains">
+      </a>
+      <div class="desc">HTML5</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="img_mountains.jpg">
+        <img src="bootstrap-6-1175203.png" alt="Mountains" >
+      </a>
+      <div class="desc">Bootstrap styeling and templates</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="img_mountains.jpg">
+        <img src="css3-10-1175238.png" alt="Mountains" >
+      </a>
+      <div class="desc">CSS styling</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="img_mountains.jpg">
+        <img src="mongo.png" alt="Mountains" >
+      </a>
+      <div class="desc">MongoDB Database</div>
+    </div>
+    <br></br>
+    <br>
+
+    </div>
+
+  </div>
+
+
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Johannesburg, RSA</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +27 73 832 7316</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: katlego.gaveni@umuzi.org</p>
+    </div><br>
+    <p>Lets get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
